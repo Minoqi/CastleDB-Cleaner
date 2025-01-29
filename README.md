@@ -5,13 +5,13 @@
 Included is some demo files to mess with. There's a *CastleDB* file with 2 sheets and each sheet has a column labeled `ID`. Then there are two `JSON` files with the names of the sheets from the *CastleDB* file. As you can see, the ID inputed into the program has been taken to create a more typical dictionary format for each sheet, making it easier for use in other programs.
 
 <p float="left">
-  <img src="images/CastleDBSheet01.PNG" width="350" />
-  <img src="images/CastleDBSheet02.PNG" width="350" /> 
+  <img src="images/CastleDBSheet01.PNG" width="400" />
+  <img src="images/CastleDBSheet02.PNG" width="400" /> 
 </p>
 
 <p float="left">
-  <img src="images/ConvertedSheet01.PNG" width="350" />
-  <img src="images/ConvertedSheet02.PNG" width="350" /> 
+  <img src="images/ConvertedSheet01.PNG" width="400" />
+  <img src="images/ConvertedSheet02.PNG" width="400" /> 
 </p>
 
 ![Screenshot of an example run from the console](images/ConsoleOutput.PNG)
