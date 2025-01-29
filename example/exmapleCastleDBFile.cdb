@@ -1,0 +1,104 @@
+{
+	"sheets": [
+		{
+			"name": "ExampleSheet01",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "ID",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Character Name",
+					"display": null
+				},
+				{
+					"typeStr": "3",
+					"name": "HP"
+				},
+				{
+					"typeStr": "3",
+					"name": "MP"
+				},
+				{
+					"typeStr": "6:ExampleSheet02",
+					"name": "Weapon",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"ID": "mainPlayer",
+					"Character Name": "Player",
+					"HP": 100,
+					"MP": 50,
+					"Weapon": "sword"
+				},
+				{
+					"ID": "npc",
+					"Character Name": "Random Guy 01",
+					"HP": 25,
+					"MP": 0,
+					"Weapon": "sword"
+				},
+				{
+					"ID": "shopKeeper",
+					"Character Name": "Merchant",
+					"HP": 1000,
+					"MP": 0,
+					"Weapon": "bomb"
+				},
+				{
+					"ID": "orc",
+					"Character Name": "Grudge",
+					"HP": 50,
+					"MP": 100,
+					"Weapon": "bomb"
+				},
+				{
+					"ID": "skeleton",
+					"Character Name": "Tim Tim",
+					"HP": 25,
+					"MP": 75,
+					"Weapon": "bow"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "ExampleSheet02",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "ID",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Weapon Name",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"ID": "sword",
+					"Weapon Name": "Basic Sword"
+				},
+				{
+					"ID": "bow",
+					"Weapon Name": "Bow and Arrow"
+				},
+				{
+					"ID": "bomb",
+					"Weapon Name": "Bomb"
+				}
+			],
+			"separators": [],
+			"props": {}
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}

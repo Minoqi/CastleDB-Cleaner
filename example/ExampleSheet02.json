@@ -1,0 +1,11 @@
+{
+    "sword": {
+        "Weapon Name": "Basic Sword"
+    },
+    "bow": {
+        "Weapon Name": "Bow and Arrow"
+    },
+    "bomb": {
+        "Weapon Name": "Bomb"
+    }
+}

@@ -50,10 +50,11 @@ while useCurrentPath.lower() != "y" and useCurrentPath.lower() != "n":
     print("ERROR: Asnwer given is invalid, please try again.")
     useCurrentPath = input("Do you want to store the converted files in the same location this script is located in? (y/n) ").strip()
 
-useCastleDBPath = input("Do you want to store the converted files in the same location the CastleDB file is located in? (y/n) ").strip()
-while useCastleDBPath.lower() != "y" and useCastleDBPath.lower() != "n":
-    print("ERROR: Asnwer given is invalid, please try again.")
+if useCurrentPath.lower() == "n":
     useCastleDBPath = input("Do you want to store the converted files in the same location the CastleDB file is located in? (y/n) ").strip()
+    while useCastleDBPath.lower() != "y" and useCastleDBPath.lower() != "n":
+        print("ERROR: Asnwer given is invalid, please try again.")
+        useCastleDBPath = input("Do you want to store the converted files in the same location the CastleDB file is located in? (y/n) ").strip()
 
 if useCurrentPath.lower() == "y":
     locationToSendTo = os.getcwd()
