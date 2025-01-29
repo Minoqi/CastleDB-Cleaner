@@ -23,7 +23,7 @@ This script uses pythons built-in `os` and `json` libraries.
 
 # Extra
 - You can get it on [itchio](https://minoqi/itchi.io/castledb-cleaner) as well
-- YOu can read my [blog post](https://minoqi.vercel.app/posts/castledb-to-json-converter/) which explains the code a bit
+- You can read my [blog post](https://minoqi.vercel.app/posts/castledb-to-json-converter/) which explains the code a bit
 
 # License
 Licensed under the MIT license, see `LICENSE` for more information.
