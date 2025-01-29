@@ -4,8 +4,16 @@
 # Demo
 Included is some demo files to mess with. There's a *CastleDB* file with 2 sheets and each sheet has a column labeled `ID`. Then there are two `JSON` files with the names of the sheets from the *CastleDB* file. As you can see, the ID inputed into the program has been taken to create a more typical dictionary format for each sheet, making it easier for use in other programs.
 
-![Screenshot of CastleDB sheets](images/CastleDBSheet01.PNG)(images/CastleDBSheet02.PNG)
-![Screenshot of sheets converted output](images/ConvertedSheet01.PNG)(images/ConvertedSheet02.PNG)
+<p float="left">
+  <img src="images/CastleDBSheet01.PNG" width="100" />
+  <img src="images/CastleDBSheet02.PNG" width="100" /> 
+</p>
+
+<p float="left">
+  <img src="images/ConvertedSheet01.PNG" width="100" />
+  <img src="images/ConvertedSheet02.PNG" width="100" /> 
+</p>
+
 ![Screenshot of an example run from the console](images/ConsoleOutput.PNG)
 
 # Technical Details
