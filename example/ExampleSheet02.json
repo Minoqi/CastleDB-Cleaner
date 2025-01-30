@@ -1,11 +1,26 @@
 {
     "sword": {
-        "Weapon Name": "Basic Sword"
+        "Weapon Name": "Basic Sword",
+        "Effects": [
+            {
+                "Effect": 0
+            }
+        ]
     },
     "bow": {
-        "Weapon Name": "Bow and Arrow"
+        "Weapon Name": "Bow and Arrow",
+        "Effects": [
+            {
+                "Effect": 3
+            }
+        ]
     },
     "bomb": {
-        "Weapon Name": "Bomb"
+        "Weapon Name": "Bomb",
+        "Effects": [
+            {
+                "Effect": 1
+            }
+        ]
     }
 }

@@ -79,20 +79,86 @@
 					"typeStr": "1",
 					"name": "Weapon Name",
 					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "Effects",
+					"display": null
 				}
 			],
 			"lines": [
 				{
 					"ID": "sword",
-					"Weapon Name": "Basic Sword"
+					"Weapon Name": "Basic Sword",
+					"Effects": [
+						{
+							"Effect": 0
+						}
+					]
 				},
 				{
 					"ID": "bow",
-					"Weapon Name": "Bow and Arrow"
+					"Weapon Name": "Bow and Arrow",
+					"Effects": [
+						{
+							"Effect": 3
+						}
+					]
 				},
 				{
 					"ID": "bomb",
-					"Weapon Name": "Bomb"
+					"Weapon Name": "Bomb",
+					"Effects": [
+						{
+							"Effect": 1
+						}
+					]
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "ExampleSheet02@Effects",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "5:nothing,burn,freeze,bleed",
+					"name": "Effect",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "ExampleSheet03",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "ID",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "Skill Name",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"ID": "healing_potion",
+					"Skill Name": "Healing Potion"
+				},
+				{
+					"ID": "attack_potion",
+					"Skill Name": "Attack Potion"
+				},
+				{
+					"ID": "magic_potion",
+					"Skill Name": "Magic Potion"
 				}
 			],
 			"separators": [],

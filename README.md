@@ -21,8 +21,10 @@ Included is some demo files to mess with. There's a *CastleDB* file with 2 sheet
 # Technical Details
 This script uses pythons built-in `os` and `json` libraries.
 
+You can keep up-to-date with bugs and future features in the `issues` tab.
+
 > [!WARNING]  
-> This has not been tested with CastleDBs tilemap, although I would assume it would work.
+> This has not been tested with CastleDBs tilemap system.
 
 # Extra
 - You can get it on [itchio](https://minoqi/itchi.io/castledb-cleaner) as well

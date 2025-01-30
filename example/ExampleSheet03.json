@@ -1,0 +1,11 @@
+{
+    "healing_potion": {
+        "Skill Name": "Healing Potion"
+    },
+    "attack_potion": {
+        "Skill Name": "Attack Potion"
+    },
+    "magic_potion": {
+        "Skill Name": "Magic Potion"
+    }
+}

@@ -87,6 +87,11 @@ idString = input("What's the name of the key that's storing the ID value? Keep i
 
 # Convert each sheet
 for sheet in originalData["sheets"]:
+    # Make sure there are lines, otherwise skip sheet (used to skip sheets made from list column types)
+    if not sheet["lines"]:
+        print(f"Skipping sheet used for column list type... {sheet["name"]}")
+        continue
+
     # Make sure ID exists, otherwise skip sheet
     if idString not in sheet["lines"][0]:
         print(f"ERROR: ID not found in file, skipping sheet {sheet["name"]}... (Given ID: {idString})")
