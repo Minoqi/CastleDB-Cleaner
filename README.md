@@ -27,7 +27,7 @@ You can keep up-to-date with bugs and future features in the `issues` tab.
 > This has not been tested with CastleDBs tilemap system.
 
 # Extra
-- You can get it on [itchio](https://minoqi/itchi.io/castledb-cleaner) as well
+- You can get it on [itchio](https://minoqi.itchi.io/castledb-cleaner) as well
 - You can read my [blog post](https://minoqi.vercel.app/posts/castledb-to-json-converter/) which explains the code a bit
 
 # License
